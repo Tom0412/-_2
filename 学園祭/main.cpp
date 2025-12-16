@@ -34,7 +34,7 @@ int main()
 
 int BeginnerLevel()
 {
-    printf("\n初級");
+    printf("\n初級\n");
     // 数字を入力
     int n;
 
@@ -55,6 +55,7 @@ int BeginnerLevel()
 
 int IntermediateLevel()
 {
+    printf("\n中級\n");
     int x = 0;
     printf("3になるまで0を足していきます。");
     // 変数i = 1
@@ -82,6 +83,7 @@ int IntermediateLevel()
 
 int AdvancedLevel()
 {
+    printf("\n上級\n");
     int i;
     // 点数を入力
     printf("テストの点数を入力してください。:");
